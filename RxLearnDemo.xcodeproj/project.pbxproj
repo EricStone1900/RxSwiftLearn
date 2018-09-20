@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		48F838F649C9D31386B02EAA /* Pods_RxLearnDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680DEEA44DD3D937B5B5B89A /* Pods_RxLearnDemo.framework */; };
+		CA0BD6582153324B00196216 /* Douban.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD6572153324B00196216 /* Douban.swift */; };
+		CA0BD65A215335D600196216 /* RxAlamofire+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD659215335D600196216 /* RxAlamofire+ObjectMapper.swift */; };
+		CA0BD65D2153422700196216 /* new-followers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0BD65C2153422700196216 /* new-followers.jpg */; };
+		CA0BD6602153522800196216 /* MoyaServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD65F2153522800196216 /* MoyaServiceViewController.swift */; };
+		CA0BD662215375EC00196216 /* DoubanProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD661215375EC00196216 /* DoubanProvider.swift */; };
+		CA0BD66B21538E0000196216 /* RxDriverDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD66A21538E0000196216 /* RxDriverDemoViewController.swift */; };
+		CA0BD66D21538E7D00196216 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD66C21538E7D00196216 /* GitHubModel.swift */; };
+		CA0BD67021538F9300196216 /* GitHubProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD66F21538F9300196216 /* GitHubProvider.swift */; };
+		CA0BD672215391DB00196216 /* GitHubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD671215391DB00196216 /* GitHubViewModel.swift */; };
+		CA0BD6742153995700196216 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD6732153995700196216 /* GitHubNetworkService.swift */; };
+		CA0BD67921539A8100196216 /* RxLoginRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD67721539A8100196216 /* RxLoginRegistViewController.swift */; };
+		CA0BD67A21539A8100196216 /* RxLoginRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0BD67821539A8100196216 /* RxLoginRegistViewController.xib */; };
 		CAC80F712151D82000242D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC80F702151D82000242D29 /* AppDelegate.swift */; };
 		CAC80F732151D82000242D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC80F722151D82000242D29 /* ViewController.swift */; };
 		CAC80F762151D82000242D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC80F742151D82000242D29 /* Main.storyboard */; };
@@ -30,6 +42,19 @@
 		24C68DE280C40F4E43777B14 /* Pods-RxLearnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLearnDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxLearnDemo/Pods-RxLearnDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		680DEEA44DD3D937B5B5B89A /* Pods_RxLearnDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxLearnDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3B1C4314A34E61DEC09709 /* Pods-RxLearnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxLearnDemo.release.xcconfig"; path = "Target Support Files/Pods-RxLearnDemo/Pods-RxLearnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CA0BD6572153324B00196216 /* Douban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Douban.swift; sourceTree = "<group>"; };
+		CA0BD659215335D600196216 /* RxAlamofire+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxAlamofire+ObjectMapper.swift"; sourceTree = "<group>"; };
+		CA0BD65C2153422700196216 /* new-followers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new-followers.jpg"; sourceTree = "<group>"; };
+		CA0BD65F2153522800196216 /* MoyaServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaServiceViewController.swift; sourceTree = "<group>"; };
+		CA0BD661215375EC00196216 /* DoubanProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanProvider.swift; sourceTree = "<group>"; };
+		CA0BD66A21538E0000196216 /* RxDriverDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDriverDemoViewController.swift; sourceTree = "<group>"; };
+		CA0BD66C21538E7D00196216 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		CA0BD66F21538F9300196216 /* GitHubProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubProvider.swift; sourceTree = "<group>"; };
+		CA0BD671215391DB00196216 /* GitHubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewModel.swift; sourceTree = "<group>"; };
+		CA0BD6732153995700196216 /* GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
+		CA0BD67721539A8100196216 /* RxLoginRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLoginRegistViewController.swift; sourceTree = "<group>"; };
+		CA0BD67821539A8100196216 /* RxLoginRegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxLoginRegistViewController.xib; sourceTree = "<group>"; };
+		CA0BD67E21539E6300196216 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CAC80F6D2151D82000242D29 /* RxLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC80F702151D82000242D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAC80F722151D82000242D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +96,109 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CA0BD6562153323500196216 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD6572153324B00196216 /* Douban.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA0BD65B2153421700196216 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD65C2153422700196216 /* new-followers.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CA0BD65E2153520400196216 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD65F2153522800196216 /* MoyaServiceViewController.swift */,
+				CA0BD661215375EC00196216 /* DoubanProvider.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		CA0BD66521538D9400196216 /* MVVMDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD66E21538F7100196216 /* NetworkService */,
+				CA0BD66921538DDA00196216 /* View */,
+				CA0BD66821538DD300196216 /* Controller */,
+				CA0BD66721538DB700196216 /* Model */,
+				CA0BD66621538DA100196216 /* ViewModel */,
+			);
+			path = MVVMDemo1;
+			sourceTree = "<group>";
+		};
+		CA0BD66621538DA100196216 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD671215391DB00196216 /* GitHubViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA0BD66721538DB700196216 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD66C21538E7D00196216 /* GitHubModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA0BD66821538DD300196216 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD66A21538E0000196216 /* RxDriverDemoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA0BD66921538DDA00196216 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA0BD66E21538F7100196216 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD66F21538F9300196216 /* GitHubProvider.swift */,
+				CA0BD6732153995700196216 /* GitHubNetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		CA0BD67521539A3D00196216 /* MVVMDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD67B21539E1E00196216 /* NetworkService */,
+				CA0BD67621539A4C00196216 /* Controller */,
+			);
+			path = MVVMDemo2;
+			sourceTree = "<group>";
+		};
+		CA0BD67621539A4C00196216 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD67721539A8100196216 /* RxLoginRegistViewController.swift */,
+				CA0BD67821539A8100196216 /* RxLoginRegistViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA0BD67B21539E1E00196216 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CA0BD67E21539E6300196216 /* README.md */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
 		CAC80F642151D82000242D29 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +220,10 @@
 		CAC80F6F2151D82000242D29 /* RxLearnDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CA0BD67521539A3D00196216 /* MVVMDemo2 */,
+				CA0BD66521538D9400196216 /* MVVMDemo1 */,
+				CA0BD65E2153520400196216 /* Moya */,
+				CA0BD65B2153421700196216 /* Resource */,
 				CAC80F9B21524A3900242D29 /* RxAlamofire */,
 				CAC80F942152444D00242D29 /* RxCollectionView */,
 				CAC80F822151DEA000242D29 /* RxTableView */,
@@ -140,7 +272,9 @@
 		CAC80F9B21524A3900242D29 /* RxAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				CA0BD6562153323500196216 /* Model */,
 				CAC80F9C21524BB300242D29 /* RxAlamofireViewController.swift */,
+				CA0BD659215335D600196216 /* RxAlamofire+ObjectMapper.swift */,
 			);
 			path = RxAlamofire;
 			sourceTree = "<group>";
@@ -213,10 +347,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0BD67A21539A8100196216 /* RxLoginRegistViewController.xib in Resources */,
 				CAC80F932152345C00242D29 /* SwitchViewCell.xib in Resources */,
 				CAC80F8F2152344900242D29 /* ImgViewCell.xib in Resources */,
 				CAC80F7B2151D82300242D29 /* LaunchScreen.storyboard in Resources */,
 				CAC80F782151D82300242D29 /* Assets.xcassets in Resources */,
+				CA0BD65D2153422700196216 /* new-followers.jpg in Resources */,
 				CAC80F762151D82000242D29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,19 +369,29 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RxLearnDemo/Pods-RxLearnDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -277,17 +423,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0BD65A215335D600196216 /* RxAlamofire+ObjectMapper.swift in Sources */,
 				CAC80F842151DECB00242D29 /* RxTableViewController.swift in Sources */,
+				CA0BD672215391DB00196216 /* GitHubViewModel.swift in Sources */,
+				CA0BD662215375EC00196216 /* DoubanProvider.swift in Sources */,
 				CAC80F732151D82000242D29 /* ViewController.swift in Sources */,
+				CA0BD67921539A8100196216 /* RxLoginRegistViewController.swift in Sources */,
 				CAC80F98215244B700242D29 /* RxCollectionViewController.swift in Sources */,
+				CA0BD67021538F9300196216 /* GitHubProvider.swift in Sources */,
 				CAC80F8E2152344900242D29 /* ImgViewCell.swift in Sources */,
+				CA0BD6582153324B00196216 /* Douban.swift in Sources */,
 				CAC80F8A2152323200242D29 /* RxTableCustomViewController.swift in Sources */,
 				CAC80F9D21524BB300242D29 /* RxAlamofireViewController.swift in Sources */,
 				CAC80F922152345C00242D29 /* SwitchViewCell.swift in Sources */,
+				CA0BD66B21538E0000196216 /* RxDriverDemoViewController.swift in Sources */,
 				CAC80F9A215247FD00242D29 /* RxCollectionDataSourceController.swift in Sources */,
 				CAC80F882152232A00242D29 /* RxTabeEditableViewController.swift in Sources */,
 				CAC80F712151D82000242D29 /* AppDelegate.swift in Sources */,
+				CA0BD66D21538E7D00196216 /* GitHubModel.swift in Sources */,
+				CA0BD6602153522800196216 /* MoyaServiceViewController.swift in Sources */,
 				CAC80F862151E64B00242D29 /* RxTabeDataSourceViewController.swift in Sources */,
+				CA0BD6742153995700196216 /* GitHubNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

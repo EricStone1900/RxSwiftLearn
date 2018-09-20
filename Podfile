@@ -10,5 +10,8 @@ target 'RxLearnDemo' do
     pod 'RxCocoa'
     pod 'RxDataSources'
     pod 'RxAlamofire'
-
+    pod 'ObjectMapper'
+    pod 'SwiftyJSON'
+    pod 'Moya/RxSwift'
+    pod 'Moya-ObjectMapper/RxSwift'
 end

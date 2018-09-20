@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         "RxTableView",
         "RxCollectionView",
         "RxAlamofire",
-        "文本标签的用法",
+        "Moya",
+        "MVVMDemo1",
+        "MVVMDemo2"
         ])
 
     override func viewDidLoad() {
@@ -69,6 +71,12 @@ extension ViewController {
             self.navigationController?.pushViewController(RxCollectionViewController(), animated: true)
         case "RxAlamofire":
             self.navigationController?.pushViewController(RxAlamofireViewController(), animated: true)
+        case "Moya":
+            self.navigationController?.pushViewController(MoyaServiceViewController(), animated: true)
+        case "MVVMDemo1":
+            self.navigationController?.pushViewController(RxDriverDemoViewController(), animated: true)
+        case "MVVMDemo2":
+            self.navigationController?.pushViewController(RxLoginRegistViewController(), animated: true)
         default:
             print("vcName:\(item)")
         }
