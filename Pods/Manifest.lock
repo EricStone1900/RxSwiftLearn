@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.3)
   - Differentiator (3.0.2)
+  - MJRefresh (3.1.15.6)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
   - Moya-ObjectMapper/Core (2.7):
@@ -32,6 +33,7 @@ PODS:
   - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
+  - MJRefresh
   - Moya-ObjectMapper/RxSwift
   - Moya/RxSwift
   - ObjectMapper
@@ -45,6 +47,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Differentiator
+    - MJRefresh
     - Moya
     - Moya-ObjectMapper
     - ObjectMapper
@@ -58,6 +61,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   Moya-ObjectMapper: 441caa307b527331fde59e2577adc632a16f1255
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
@@ -68,6 +72,6 @@ SPEC CHECKSUMS:
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: c1870c9517741ef0ed95645bfb4408e4bd6cbd46
+PODFILE CHECKSUM: 7059491c1a4f64e65c02f31ef00dd009c4c41043
 
 COCOAPODS: 1.6.0.beta.1

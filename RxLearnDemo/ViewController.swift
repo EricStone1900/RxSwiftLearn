@@ -21,7 +21,9 @@ class ViewController: UIViewController {
         "RxAlamofire",
         "Moya",
         "MVVMDemo1",
-        "MVVMDemo2"
+        "MVVMDemo2",
+        "MJRefreshDemo",
+        "RxLocationDemo"
         ])
 
     override func viewDidLoad() {
@@ -77,6 +79,10 @@ extension ViewController {
             self.navigationController?.pushViewController(RxDriverDemoViewController(), animated: true)
         case "MVVMDemo2":
             self.navigationController?.pushViewController(RxLoginRegistViewController(), animated: true)
+        case "MJRefreshDemo":
+            self.navigationController?.pushViewController(RxRefreshViewController(), animated: true)
+        case "RxLocationDemo":
+            self.navigationController?.pushViewController(RxLocationViewController(), animated: true)
         default:
             print("vcName:\(item)")
         }

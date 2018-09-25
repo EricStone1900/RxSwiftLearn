@@ -14,4 +14,5 @@ target 'RxLearnDemo' do
     pod 'SwiftyJSON'
     pod 'Moya/RxSwift'
     pod 'Moya-ObjectMapper/RxSwift'
+    pod 'MJRefresh'
 end

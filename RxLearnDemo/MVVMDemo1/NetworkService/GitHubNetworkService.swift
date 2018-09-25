@@ -12,6 +12,7 @@ import ObjectMapper
 
 class GitHubNetworkService {
     
+    
     //搜索资源数据
     func searchRepositories(query:String) -> Driver<GitHubRepositories> {
         return GitHubProvider.rx.request(.repositories(query))
@@ -21,18 +22,18 @@ class GitHubNetworkService {
     }
     
     //验证用户是否存在
-    func usernameAvailable(_ username: String) -> Driver<Bool>{
+    func usernameAvailable(_ username: String) -> Observable<Bool>{
         return GitHubProvider.rx.request(.usernameexist(username))
 //            .filterSuccessfulStatusCodes()
             .map { response in
                 print("请求返回response:",response.statusCode)
-                if response.statusCode == 404 {
+                if response.statusCode == 404 {//用户不存在
                    return false
-                } else {
+                } else {//用户存在
                     return true
-                }
-                
+                }                
             }
-            .asDriver(onErrorDriveWith: Driver.empty())
+            .asObservable()
     }
+    
 }

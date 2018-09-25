@@ -16,6 +16,7 @@
                 <outlet property="passwordValidationOutlet" destination="cg1-VE-6GN" id="xzj-o1-y1M"/>
                 <outlet property="repeatedPasswordOutlet" destination="UR0-36-Xzn" id="ZHH-mn-dY9"/>
                 <outlet property="repeatedPasswordValidationOutlet" destination="GEc-P3-PWh" id="WZI-Sy-jIg"/>
+                <outlet property="signInActivityIndicator" destination="bqq-2s-z0Z" id="avT-BV-piM"/>
                 <outlet property="signupOutlet" destination="5If-6H-DoB" id="e2J-JE-uF3"/>
                 <outlet property="usernameOutlet" destination="9yx-DB-QRW" id="c7o-gU-lk4"/>
                 <outlet property="usernameValidationOutlet" destination="PZP-rO-dLO" id="fdg-73-oVA"/>
@@ -74,9 +75,13 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="bqq-2s-z0Z">
+                    <rect key="frame" x="70" y="296" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="5If-6H-DoB" firstAttribute="leading" secondItem="bqq-2s-z0Z" secondAttribute="trailing" constant="8" id="0RS-4C-A5t"/>
                 <constraint firstItem="z1t-uT-ZZL" firstAttribute="top" secondItem="PZP-rO-dLO" secondAttribute="bottom" constant="10" id="0YH-wm-Bfb"/>
                 <constraint firstItem="9yx-DB-QRW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3Bq-fw-IZn"/>
                 <constraint firstItem="PZP-rO-dLO" firstAttribute="leading" secondItem="9yx-DB-QRW" secondAttribute="leading" id="8Hp-RB-X5u"/>
@@ -89,6 +94,7 @@
                 <constraint firstItem="GEc-P3-PWh" firstAttribute="leading" secondItem="UR0-36-Xzn" secondAttribute="leading" id="ZOi-qO-6gl"/>
                 <constraint firstItem="cg1-VE-6GN" firstAttribute="top" secondItem="z1t-uT-ZZL" secondAttribute="bottom" constant="10" id="ZWQ-NC-sAc"/>
                 <constraint firstItem="UR0-36-Xzn" firstAttribute="width" secondItem="z1t-uT-ZZL" secondAttribute="width" id="bSE-8X-14D"/>
+                <constraint firstItem="bqq-2s-z0Z" firstAttribute="centerY" secondItem="5If-6H-DoB" secondAttribute="centerY" id="bxS-EY-8eG"/>
                 <constraint firstItem="UR0-36-Xzn" firstAttribute="top" secondItem="cg1-VE-6GN" secondAttribute="bottom" constant="10" id="eW7-bU-VD1"/>
                 <constraint firstItem="UR0-36-Xzn" firstAttribute="leading" secondItem="z1t-uT-ZZL" secondAttribute="leading" id="fMh-id-kpa"/>
                 <constraint firstItem="z1t-uT-ZZL" firstAttribute="width" secondItem="9yx-DB-QRW" secondAttribute="width" id="qUU-ed-Z78"/>

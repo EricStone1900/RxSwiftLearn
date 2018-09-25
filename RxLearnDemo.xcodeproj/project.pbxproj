@@ -20,6 +20,21 @@
 		CA0BD6742153995700196216 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD6732153995700196216 /* GitHubNetworkService.swift */; };
 		CA0BD67921539A8100196216 /* RxLoginRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0BD67721539A8100196216 /* RxLoginRegistViewController.swift */; };
 		CA0BD67A21539A8100196216 /* RxLoginRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0BD67821539A8100196216 /* RxLoginRegistViewController.xib */; };
+		CAC1A57921547C840052758B /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A57821547C840052758B /* ValidationResult.swift */; };
+		CAC1A57C21547F8A0052758B /* GitHubSignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A57B21547F8A0052758B /* GitHubSignupService.swift */; };
+		CAC1A57F215484B90052758B /* GitHubSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A57E215484B90052758B /* GitHubSignupViewModel.swift */; };
+		CAC1A5822154928E0052758B /* UILabel+RxBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5812154928E0052758B /* UILabel+RxBind.swift */; };
+		CAC1A584215497F30052758B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A583215497F30052758B /* ActivityIndicator.swift */; };
+		CAC1A5872154CC280052758B /* RxRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5862154CC280052758B /* RxRefreshViewController.swift */; };
+		CAC1A5892154CCDD0052758B /* MJRefresh+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5882154CCDD0052758B /* MJRefresh+Rx.swift */; };
+		CAC1A58B2154CFBD0052758B /* RefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A58A2154CFBD0052758B /* RefreshService.swift */; };
+		CAC1A58D2154D1400052758B /* RefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A58C2154D1400052758B /* RefreshViewModel.swift */; };
+		CAC1A5922154DDBB0052758B /* RxLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5902154DDBB0052758B /* RxLocationViewController.swift */; };
+		CAC1A5932154DDBB0052758B /* RxLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC1A5912154DDBB0052758B /* RxLocationViewController.xib */; };
+		CAC1A5952154DFEE0052758B /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5942154DFEE0052758B /* RxCLLocationManagerDelegateProxy.swift */; };
+		CAC1A5972154E7590052758B /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5962154E7590052758B /* CLLocationManager+Rx.swift */; };
+		CAC1A5992154EB110052758B /* GeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A5982154EB110052758B /* GeolocationService.swift */; };
+		CAC1A59B2154EB930052758B /* UILabel+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC1A59A2154EB930052758B /* UILabel+Rx.swift */; };
 		CAC80F712151D82000242D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC80F702151D82000242D29 /* AppDelegate.swift */; };
 		CAC80F732151D82000242D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC80F722151D82000242D29 /* ViewController.swift */; };
 		CAC80F762151D82000242D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC80F742151D82000242D29 /* Main.storyboard */; };
@@ -55,6 +70,22 @@
 		CA0BD67721539A8100196216 /* RxLoginRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLoginRegistViewController.swift; sourceTree = "<group>"; };
 		CA0BD67821539A8100196216 /* RxLoginRegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxLoginRegistViewController.xib; sourceTree = "<group>"; };
 		CA0BD67E21539E6300196216 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAC1A57821547C840052758B /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		CAC1A57B21547F8A0052758B /* GitHubSignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupService.swift; sourceTree = "<group>"; };
+		CAC1A57E215484B90052758B /* GitHubSignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewModel.swift; sourceTree = "<group>"; };
+		CAC1A5812154928E0052758B /* UILabel+RxBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+RxBind.swift"; sourceTree = "<group>"; };
+		CAC1A583215497F30052758B /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CAC1A5862154CC280052758B /* RxRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRefreshViewController.swift; sourceTree = "<group>"; };
+		CAC1A5882154CCDD0052758B /* MJRefresh+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MJRefresh+Rx.swift"; sourceTree = "<group>"; };
+		CAC1A58A2154CFBD0052758B /* RefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshService.swift; sourceTree = "<group>"; };
+		CAC1A58C2154D1400052758B /* RefreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewModel.swift; sourceTree = "<group>"; };
+		CAC1A58E2154D6120052758B /* Swift-Bridge-Objective-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge-Objective-C.h"; sourceTree = "<group>"; };
+		CAC1A5902154DDBB0052758B /* RxLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxLocationViewController.swift; sourceTree = "<group>"; };
+		CAC1A5912154DDBB0052758B /* RxLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxLocationViewController.xib; sourceTree = "<group>"; };
+		CAC1A5942154DFEE0052758B /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		CAC1A5962154E7590052758B /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		CAC1A5982154EB110052758B /* GeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationService.swift; sourceTree = "<group>"; };
+		CAC1A59A2154EB930052758B /* UILabel+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Rx.swift"; sourceTree = "<group>"; };
 		CAC80F6D2151D82000242D29 /* RxLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC80F702151D82000242D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAC80F722151D82000242D29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +207,9 @@
 		CA0BD67521539A3D00196216 /* MVVMDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				CAC1A580215491B20052758B /* RxExtension */,
+				CAC1A57D215484980052758B /* ViewModel */,
+				CAC1A57A21547F560052758B /* SignupService */,
 				CA0BD67B21539E1E00196216 /* NetworkService */,
 				CA0BD67621539A4C00196216 /* Controller */,
 			);
@@ -199,6 +233,56 @@
 			path = NetworkService;
 			sourceTree = "<group>";
 		};
+		CAC1A57A21547F560052758B /* SignupService */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A57821547C840052758B /* ValidationResult.swift */,
+				CAC1A57B21547F8A0052758B /* GitHubSignupService.swift */,
+			);
+			path = SignupService;
+			sourceTree = "<group>";
+		};
+		CAC1A57D215484980052758B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A57E215484B90052758B /* GitHubSignupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAC1A580215491B20052758B /* RxExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A5812154928E0052758B /* UILabel+RxBind.swift */,
+				CAC1A583215497F30052758B /* ActivityIndicator.swift */,
+			);
+			path = RxExtension;
+			sourceTree = "<group>";
+		};
+		CAC1A5852154CBFF0052758B /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A5862154CC280052758B /* RxRefreshViewController.swift */,
+				CAC1A5882154CCDD0052758B /* MJRefresh+Rx.swift */,
+				CAC1A58A2154CFBD0052758B /* RefreshService.swift */,
+				CAC1A58C2154D1400052758B /* RefreshViewModel.swift */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		CAC1A58F2154DD800052758B /* RxLocation */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1A5902154DDBB0052758B /* RxLocationViewController.swift */,
+				CAC1A5912154DDBB0052758B /* RxLocationViewController.xib */,
+				CAC1A5942154DFEE0052758B /* RxCLLocationManagerDelegateProxy.swift */,
+				CAC1A5962154E7590052758B /* CLLocationManager+Rx.swift */,
+				CAC1A5982154EB110052758B /* GeolocationService.swift */,
+				CAC1A59A2154EB930052758B /* UILabel+Rx.swift */,
+			);
+			path = RxLocation;
+			sourceTree = "<group>";
+		};
 		CAC80F642151D82000242D29 = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +304,8 @@
 		CAC80F6F2151D82000242D29 /* RxLearnDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CAC1A58F2154DD800052758B /* RxLocation */,
+				CAC1A5852154CBFF0052758B /* MJRefresh */,
 				CA0BD67521539A3D00196216 /* MVVMDemo2 */,
 				CA0BD66521538D9400196216 /* MVVMDemo1 */,
 				CA0BD65E2153520400196216 /* Moya */,
@@ -233,6 +319,7 @@
 				CAC80F772151D82300242D29 /* Assets.xcassets */,
 				CAC80F792151D82300242D29 /* LaunchScreen.storyboard */,
 				CAC80F7C2151D82300242D29 /* Info.plist */,
+				CAC1A58E2154D6120052758B /* Swift-Bridge-Objective-C.h */,
 			);
 			path = RxLearnDemo;
 			sourceTree = "<group>";
@@ -354,6 +441,7 @@
 				CAC80F782151D82300242D29 /* Assets.xcassets in Resources */,
 				CA0BD65D2153422700196216 /* new-followers.jpg in Resources */,
 				CAC80F762151D82000242D29 /* Main.storyboard in Resources */,
+				CAC1A5932154DDBB0052758B /* RxLocationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +457,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-RxLearnDemo/Pods-RxLearnDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -383,6 +472,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -425,22 +515,36 @@
 			files = (
 				CA0BD65A215335D600196216 /* RxAlamofire+ObjectMapper.swift in Sources */,
 				CAC80F842151DECB00242D29 /* RxTableViewController.swift in Sources */,
+				CAC1A57C21547F8A0052758B /* GitHubSignupService.swift in Sources */,
 				CA0BD672215391DB00196216 /* GitHubViewModel.swift in Sources */,
+				CAC1A584215497F30052758B /* ActivityIndicator.swift in Sources */,
 				CA0BD662215375EC00196216 /* DoubanProvider.swift in Sources */,
 				CAC80F732151D82000242D29 /* ViewController.swift in Sources */,
+				CAC1A59B2154EB930052758B /* UILabel+Rx.swift in Sources */,
 				CA0BD67921539A8100196216 /* RxLoginRegistViewController.swift in Sources */,
 				CAC80F98215244B700242D29 /* RxCollectionViewController.swift in Sources */,
+				CAC1A5922154DDBB0052758B /* RxLocationViewController.swift in Sources */,
 				CA0BD67021538F9300196216 /* GitHubProvider.swift in Sources */,
+				CAC1A5952154DFEE0052758B /* RxCLLocationManagerDelegateProxy.swift in Sources */,
+				CAC1A5972154E7590052758B /* CLLocationManager+Rx.swift in Sources */,
 				CAC80F8E2152344900242D29 /* ImgViewCell.swift in Sources */,
 				CA0BD6582153324B00196216 /* Douban.swift in Sources */,
 				CAC80F8A2152323200242D29 /* RxTableCustomViewController.swift in Sources */,
+				CAC1A57921547C840052758B /* ValidationResult.swift in Sources */,
+				CAC1A5822154928E0052758B /* UILabel+RxBind.swift in Sources */,
 				CAC80F9D21524BB300242D29 /* RxAlamofireViewController.swift in Sources */,
+				CAC1A58D2154D1400052758B /* RefreshViewModel.swift in Sources */,
 				CAC80F922152345C00242D29 /* SwitchViewCell.swift in Sources */,
 				CA0BD66B21538E0000196216 /* RxDriverDemoViewController.swift in Sources */,
 				CAC80F9A215247FD00242D29 /* RxCollectionDataSourceController.swift in Sources */,
+				CAC1A58B2154CFBD0052758B /* RefreshService.swift in Sources */,
 				CAC80F882152232A00242D29 /* RxTabeEditableViewController.swift in Sources */,
 				CAC80F712151D82000242D29 /* AppDelegate.swift in Sources */,
+				CAC1A5872154CC280052758B /* RxRefreshViewController.swift in Sources */,
+				CAC1A57F215484B90052758B /* GitHubSignupViewModel.swift in Sources */,
+				CAC1A5992154EB110052758B /* GeolocationService.swift in Sources */,
 				CA0BD66D21538E7D00196216 /* GitHubModel.swift in Sources */,
+				CAC1A5892154CCDD0052758B /* MJRefresh+Rx.swift in Sources */,
 				CA0BD6602153522800196216 /* MoyaServiceViewController.swift in Sources */,
 				CAC80F862151E64B00242D29 /* RxTabeDataSourceViewController.swift in Sources */,
 				CA0BD6742153995700196216 /* GitHubNetworkService.swift in Sources */,
@@ -597,8 +701,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.RxLearnDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RxLearnDemo/Swift-Bridge-Objective-C.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "{SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -616,8 +722,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.song.RxLearnDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RxLearnDemo/Swift-Bridge-Objective-C.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "{SRCROOT}";
 			};
 			name = Release;
 		};
